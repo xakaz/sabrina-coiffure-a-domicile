@@ -24,7 +24,7 @@
           <p class="text-xl sm:text-3xl tracking-widest">Coiffure à Domicile</p>
         </div>
         <nav
-          class="w-full bg-zinc-900 py-2 absolute bottom-0 px-12 lg:px-24 flex items-center justify-around text-sm font-medium text-slate-200 sm:text-base md:text-lg lg:text-xl"
+          class="w-full bg-zinc-900 py-2 absolute bottom-0 px-12 lg:px-24 flex items-center justify-evenly text-sm font-medium text-slate-200 sm:text-base md:text-lg lg:text-xl"
         >
           <a href="#home" class="hover:scale-105">Accueil</a>
           <a href="#work" class="hover:scale-105">Réalisations</a>
@@ -156,7 +156,7 @@
       >
         <!-- TITRE -->
         <div
-          class="bg-slate-900 w-screen absolute border-t-2 border-slate-900 lg:bg-black lg:border-none lg:static left-0 h-20 flex justify-center items-center lg:h-screen lg:w-1/4"
+          class="bg-zinc-900 w-screen absolute border-t-2 border-slate-900 lg:bg-black lg:border-none lg:static left-0 h-20 flex justify-center items-center lg:h-screen lg:w-1/4"
         >
           <h2 class="text-white text-5xl lg:-rotate-90 lg:text-8xl">
             Réalisations
@@ -250,14 +250,14 @@
     <!--  TARIFS -->
     <section
       id="prices"
-      class="h-fit w-full flex flex-col justify-around items-center text-white"
+      class="h-fit w-screenq flex flex-col justify-around items-center text-white"
     >
-      <h2 class="text-7xl p-5 lg:border-b-2 border-white mb-2">Tarifs</h2>
+      <h2 class="text-7xl p-5 lg:border-b-2 border-white lg:mb-10">Tarifs</h2>
       <div
-        class="h-fit xl:h-3/5 flex justify-center flex-col space-y-5 xl:flex-row xl:space-x-5 xl:space-y-0"
+        class="h-fit xl:h-3/5 flex justify-start w-screen max-w-xs overflow-x-scroll  md:max-w-lg lg:max-w-max space-x-5 lg:overflow-clip pb-10"
       >
         <!-- FORFAIT HOMME -->
-        <div class="h-96 w-72 bg-white rounded-lg xl:h-full">
+        <div class="h-96 w-72 bg-white rounded-lg md:w-60 lg:w-full">
           <div class="relative h-1/2 w-full rounded-t-lg overflow-hidden">
             <img
               src="src/assets/01.jpg"
@@ -267,7 +267,7 @@
           </div>
 
           <div
-            class="h-1/2 w-full bg-teal-700 rounded-b-lg flex flex-col items-center justify-center"
+            class="h-1/2 w-72 bg-teal-700 rounded-b-lg flex flex-col items-center md:w-60 justify-center"
           >
             <div class="flex flex-col items-center -space-y-3">
               <h3 class="text-5xl lg:text-6xl">Forfait</h3>
@@ -280,7 +280,8 @@
             </p>
           </div>
         </div>
-        <div class="h-96 w-72 bg-white rounded-lg xl:h-full">
+        <!-- FORFAIT HOMME -->
+        <div class="h-96 w-72 bg-white rounded-lg md:w-60 lg:w-full">
           <div class="relative h-1/2 w-full rounded-t-lg overflow-hidden">
             <img
               src="src/assets/01.jpg"
@@ -290,7 +291,7 @@
           </div>
 
           <div
-            class="h-1/2 w-full bg-teal-700 rounded-b-lg flex flex-col items-center justify-center"
+            class="h-1/2 w-72 bg-teal-700 rounded-b-lg flex flex-col items-center md:w-60 justify-center"
           >
             <div class="flex flex-col items-center -space-y-3">
               <h3 class="text-5xl lg:text-6xl">Forfait</h3>
@@ -303,7 +304,8 @@
             </p>
           </div>
         </div>
-        <div class="h-96 w-72 bg-white rounded-lg xl:h-full">
+        <!-- FORFAIT HOMME -->
+        <div class="h-96 w-72 bg-white rounded-lg md:w-60 lg:w-full">
           <div class="relative h-1/2 w-full rounded-t-lg overflow-hidden">
             <img
               src="src/assets/01.jpg"
@@ -313,7 +315,7 @@
           </div>
 
           <div
-            class="h-1/2 w-full bg-teal-700 rounded-b-lg flex flex-col items-center justify-center"
+            class="h-1/2 w-72 bg-teal-700 rounded-b-lg flex flex-col items-center md:w-60 justify-center"
           >
             <div class="flex flex-col items-center -space-y-3">
               <h3 class="text-5xl lg:text-6xl">Forfait</h3>
@@ -326,11 +328,16 @@
             </p>
           </div>
         </div>
+
+
+
+        </div>
+
       </div>
       <p class="mt-10 text-xl lg:border-b-2 pb-4 border-slate-700">
         Forfaits couleur et mèches sur devis
       </p>
-      <p class="text-sm mb-5">*tarifs en vigueur au 01/01/2023</p>
+      <p class="text-sm m-5">*tarifs en vigueur au 01/01/2023</p>
     </section>
 
     <!--  FOOTER -->
