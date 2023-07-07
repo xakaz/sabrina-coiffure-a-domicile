@@ -673,6 +673,10 @@ video {
   height: 12rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -712,6 +716,14 @@ video {
 
 .w-48 {
   width: 12rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .max-w-xs {
@@ -1347,6 +1359,10 @@ body {
     height: 100vh;
   }
 
+  .lg\:h-56 {
+    height: 14rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -1373,6 +1389,10 @@ body {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-56 {
+    width: 14rem;
   }
 
   .lg\:max-w-4xl {
@@ -1458,6 +1478,11 @@ body {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 
