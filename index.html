@@ -15,11 +15,11 @@
 
 <body class="bg-black h-screen w-screen">
   <!--  HEADER & NAVBAR-->
-  <header id="home" class="w-full h-36 sm:h-48 lg:h-1/4 bg-slate-100 flex border-b-2 border-slate-900">
+  <header id="home" class="w-full h-36 sm:h-40 lg:h-1/4 bg-slate-100 flex border-b-2 border-slate-900">
     <div class="relative w-full h-full text-center md:w-2/3">
-      <div class="p-4">
-        <h1 class="text-5xl sm:text-7xl">SABRINA</h1>
-        <p class="text-xl sm:text-3xl tracking-widest">Coiffure à Domicile</p>
+      <div class="h-3/4 flex flex-col justify-center">
+        <h1 class="text-3xl sm:text-5xl">SABRINA</h1>
+        <p class="sm:text-xl tracking-widest">Coiffure à Domicile</p>
       </div>
       <nav
         class="w-full bg-zinc-900 py-2 absolute bottom-0 px-12 lg:px-24 flex items-center justify-evenly text-sm font-medium text-slate-200 sm:text-base md:text-lg lg:text-xl">
@@ -178,76 +178,111 @@
 
   <!--  TARIFS -->
   <section id="prices" class="h-fit w-screen flex flex-col justify-around items-center text-white">
-    <h2 class="text-7xl p-5">Tarifs</h2>
+    <div class="flex">
+      <h2 class="text-7xl py-2">Tarifs</h2>
+      <p class="py-2">*</p>
+    </div>
 
     <div
-      class="w-full h-full max-w-sm flex flex-wrap items-center justify-center gap-8 text-black md:max-w-xl lg:max-w-4xl lg:my-10">
+      class="w-full h-full max-w-sm flex flex-wrap items-center justify-center gap-8 text-black md:max-w-xl lg:max-w-3xl lg:my-10">
       <!--  FORFAIT HOMME-->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
-            <p class="text-2xl lg:text-3xl">Forfaits</p>
-            <p class="text-2xl lg:text-3xl">Homme</p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">15€</p>
+            <div class="-space-y-2 text-center">
+              <p class="text-2xl lg:text-3xl">Forfait</p>
+              <p class="text-2xl lg:text-3xl">Homme</p>
+            </div>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">15€</p>
+              <p>**</p>
+            </div>
           </div>
         </div>
       </div>
       <!--  FORFAIT FEMME-->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
-            <p class="text-2xl lg:text-3xl">Forfaits</p>
-            <p class="text-2xl lg:text-3xl">Femme</p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">26€</p>
+            <div class="-space-y-2 text-center">
+              <p class="text-2xl lg:text-3xl">Forfait</p>
+              <p class="text-2xl lg:text-3xl">Femme</p>
+            </div>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">26€</p>
+<p>**</p>
+            </div>
           </div>
         </div>
       </div>
       <!--  FORFAIT ENFANT-->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
-            <p class="text-2xl lg:text-3xl">Forfaits</p>
-            <p class="text-2xl lg:text-3xl">Enfant</p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">12€</p>
+            <div class="-space-y-2 text-center">
+              <p class="text-2xl lg:text-3xl">Forfait</p>
+              <p class="text-2xl lg:text-3xl">Enfant</p>
+            </div>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">12€</p>
+              <p>**</p>
+            </div>
           </div>
         </div>
       </div>
       <!--  COULEUR BRUSH -->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
-            <p class="text-2xl lg:text-3xl">Couleur</p>
-            <p class="text-2xl lg:text-3xl">Brush</p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">38€</p>
+            <div class="-space-y-2 text-center">
+              <p class="text-2xl lg:text-3xl">Couleur</p>
+              <p class="text-2xl lg:text-3xl">Brush</p>
+            </div>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">38€</p>
+<p>**</p>
+            </div>
           </div>
         </div>
       </div>
       <!--  COULEUR COUPE BRUSH -->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
-            <p class="text-2xl lg:text-3xl">Couleur</p>
-            <p class="text-xl lg:text-3xl">Coupe Brush</p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">48€</p>
+            <div class="-space-y-2 text-center">
+              <p class="text-2xl lg:text-3xl">Couleur</p>
+              <p class="text-xl lg:text-2xl">Coupe Brush</p>
+            </div>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">48€</p>
+              <p>**</p>
+            </div>
           </div>
         </div>
       </div>
       <!--  MECHES -->
-      <div class="w-40 lg:w-56 h-40 lg:h-56 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
+      <div class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md">
         <div class="w-full h-full bg-black rounded-full p-[2px]">
           <div class="w-full h-full bg-white rounded-full flex flex-col items-center justify-center">
             <p class="text-2xl lg:text-3xl">Mèches</p>
-            <p class="text-base lg:text-xl">à partir de </p>
-            <p class="text-5xl lg:text-7xl font-sans font-medium">62€</p>
+            <div class="flex">
+              <p class="text-xl lg:text-5xl font-sans font-medium">62€</p>
+              <p>**</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <p class="mt-10 text-xl lg:border-b-2 pb-4 border-slate-700">
-      Forfaits couleur et mèches sur devis
-    </p>
-    <p class="text-sm m-5">*tarifs en vigueur au 01/01/2023</p>
+    <!--
+      <p class="mt-10 text-xl lg:border-b-2 pb-4 border-slate-700">
+        Forfaits couleur et mèches sur devis
+      </p>
+    --> 
+    <div class="flex">
+      <p class="text-sm m-5">*tarifs en vigueur au 01/01/2023</p>
+      <p class="text-sm m-5">**à partir de</p>
+    </div>
   </section>
 
   <!--  FOOTER -->
