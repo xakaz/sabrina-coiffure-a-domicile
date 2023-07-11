@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Sabrina | Coiffure à domicile</title>
   </head>
 
@@ -26,16 +27,16 @@
         <nav
           class="w-full bg-zinc-900 py-2 2xl:py-3 absolute bottom-0 px-12 lg:px-20 flex items-center justify-between xl:justify-evenly font-sans text-sm font-thin uppercase text-slate-200 sm:text-sm lg:text-md xl:text-lg 2xl:text-xl"
         >
-          <a href="#home" class="hover:scale-x-110 hover:text-pink-400"
+          <a href="#home" class="hover:text-pink-500"
             >Accueil</a
           >
-          <a href="#work" class="hover:scale-105 hover:text-pink-400"
+          <a href="#work" class="hover:text-pink-500"
             >Réalisations</a
           >
-          <a href="#prices" class="hover:scale-105 hover:text-pink-400"
+          <a href="#prices" class="hover:text-pink-500"
             >Tarifs</a
           >
-          <a href="#footer" class="hover:scale-105 hover:text-pink-400"
+          <a href="#footer" class="hover:text-pink-500"
             >Contact</a
           >
         </nav>
@@ -58,11 +59,11 @@
           <img src="./src/assets/bg_accueil.jpg" alt="fond d'écran accueil" class="absolute w-full h-full object-center object-cover opacity-80">
         </div>
         <div class="absolute top-1/2 text-white font-sans font-extrabold text-8xl -translate-y-1/2 ">  
-          <div style="text-shadow:2px 2px 1px #000" >
+          <div class="sab-skills">
             Styliste
           </div>
-          <div class=" ml-24" style="text-shadow:2px 2px 1px #000">Visagiste</div>
-          <div class=" ml-48" style="text-shadow:2px 2px 1px #000">Coloriste</div>
+          <div class="sab-skills">Visagiste</div>
+          <div class="sab-skills">Coloriste</div>
         </div>
       </div>
     </section>
@@ -91,6 +92,9 @@
           >
             <div
               class="shadow-md relative rounded-md overflow-hidden w-72 h-96 lg:w-full lg:h-1/2"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/01.jpg"
@@ -100,6 +104,9 @@
             </div>
             <div
               class="shadow-md relative rounded-md overflow-hidden w-72 h-96 lg:w-full lg:h-1/2"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/02.jpg"
@@ -114,6 +121,9 @@
           >
             <div
               class="order-1 shadow-md relative rounded-md overflow-hidden w-72 h-72 lg:w-full lg:h-1/4"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/06.jpg"
@@ -123,6 +133,9 @@
             </div>
             <div
               class="order-3 shadow-md relative rounded-md overflow-hidden w-72 h-96 lg:w-full lg:h-1/2 lg:order-2"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/03.jpg"
@@ -132,6 +145,9 @@
             </div>
             <div
               class="order-2 shadow-md relative rounded-md overflow-hidden w-72 h-72 lg:w-full lg:h-1/4 lg:order-3"
+                            data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/h02.jpg"
@@ -146,6 +162,9 @@
           >
             <div
               class="shadow-md relative rounded-md overflow-hidden w-72 h-72 lg:w-full lg:h-2/5"
+                            data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/h01.jpg"
@@ -155,6 +174,9 @@
             </div>
             <div
               class="shadow-md relative rounded-md overflow-hidden w-72 h-96 lg:w-full lg:h-3/5"
+                            data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
             >
               <img
                 src="src/assets/05.jpg"
@@ -184,7 +206,7 @@
       >
         <!--  FORFAIT HOMME-->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -203,7 +225,7 @@
         </div>
         <!--  FORFAIT FEMME-->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -222,7 +244,7 @@
         </div>
         <!--  FORFAIT ENFANT-->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -241,7 +263,7 @@
         </div>
         <!--  COULEUR BRUSH -->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -260,7 +282,7 @@
         </div>
         <!--  COULEUR COUPE BRUSH -->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md  hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -279,7 +301,7 @@
         </div>
         <!--  MECHES -->
         <div
-          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md"
+          class="w-40 lg:w-44 h-40 lg:h-44 rounded-full bg-white p-2 -rotate-12 shadow-slate-300 shadow-md hover:ring-pink-400 hover:ring-4 hover:rotate-0 duration-500"
         >
           <div class="w-full h-full rounded-full p-[2px]">
             <div
@@ -353,5 +375,10 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
