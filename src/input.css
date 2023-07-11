@@ -31,6 +31,10 @@
 }
 
 body {
-  font-family: "Lora", serif;
-  /* font-family: "Playfair Display", serif; */
+  font-family: 'Bodoni Moda', serif;
 }
+
+.title-header {
+  font-family: 'Bodoni Moda', serif;
+}
+
