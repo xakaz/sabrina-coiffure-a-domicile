@@ -31,43 +31,70 @@
 }
 
 body {
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
 }
 
 
-.sab-skills{
-  text-shadow:2px 2px 1px #000;
+.sab-skills {
+  text-shadow: 2px 2px 1px #000;
   opacity: 0;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-duration: 0.5s;
 
   &:hover {
-    text-shadow:2px 2px 1px #bf00d0, 2px 2px 5px #f18dfa, -2px -2px 1px #00ccff, -2px -2px 5px #00ccff;
+    text-shadow: 2px 2px 1px #bf00d0, 2px 2px 5px #f18dfa, -2px -2px 1px #00ccff,
+      -2px -2px 5px #00ccff;
   }
 }
-.sab-skills:nth-child(1){
+.sab-skills:nth-child(1) {
   animation-name: slide1;
 }
-.sab-skills:nth-child(2){
+.sab-skills:nth-child(2) {
   animation-name: slide2;
   animation-delay: 0.5s;
 }
 
-.sab-skills:nth-child(3){
+.sab-skills:nth-child(3) {
   animation-name: slide3;
   animation-delay: 1s;
 }
 
 @keyframes slide1 {
-  from { margin-left: -24px ; opacity: 0;}
-  to { margin-left: 0; opacity: 1;}
+  from {
+    margin-left: -24px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
 }
 @keyframes slide2 {
-  from { margin-left: 0 ; opacity: 0;}
-  to { margin-left: 48px; opacity: 1;}
+  from {
+    margin-left: 0;
+    opacity: 0;
+  }
+  to {
+    margin-left: 48px;
+    opacity: 1;
+  }
 }
 @keyframes slide3 {
-  from { margin-left: 0 ; opacity: 0;}
-  to { margin-left: 96px; opacity: 1;}
+  from {
+    margin-left: 0;
+    opacity: 0;
+  }
+  to {
+    margin-left: 96px;
+    opacity: 1;
+  }
+}
+
+
+#prices{background-image: radial-gradient(circle at center center, transparent,rgb(0,0,0)),linear-gradient(300deg, rgba(198, 198, 198,0.05) 0%, rgba(198, 198, 198,0.05) 50%,rgba(11, 11, 11,0.05) 50%, rgba(11, 11, 11,0.05) 100%),linear-gradient(64deg, rgba(54, 54, 54,0.05) 0%, rgba(54, 54, 54,0.05) 50%,rgba(132, 132, 132,0.05) 50%, rgba(132, 132, 132,0.05) 100%),linear-gradient(17deg, rgba(57, 57, 57,0.05) 0%, rgba(57, 57, 57,0.05) 50%,rgba(128, 128, 128,0.05) 50%, rgba(128, 128, 128,0.05) 100%),linear-gradient(332deg, rgba(97, 97, 97,0.05) 0%, rgba(97, 97, 97,0.05) 50%,rgba(85, 85, 85,0.05) 50%, rgba(85, 85, 85,0.05) 100%),linear-gradient(148deg, rgba(237, 237, 237,0.05) 0%, rgba(237, 237, 237,0.05) 50%,rgba(211, 211, 211,0.05) 50%, rgba(211, 211, 211,0.05) 100%),linear-gradient(142deg, rgba(168, 168, 168,0.05) 0%, rgba(168, 168, 168,0.05) 50%,rgba(32, 32, 32,0.05) 50%, rgba(32, 32, 32,0.05) 100%),linear-gradient(15deg, rgba(225, 225, 225,0.05) 0%, rgba(225, 225, 225,0.05) 50%,rgba(228, 228, 228,0.05) 50%, rgba(228, 228, 228,0.05) 100%),linear-gradient(5deg, rgba(104, 104, 104,0.05) 0%, rgba(104, 104, 104,0.05) 50%,rgba(43, 43, 43,0.05) 50%, rgba(43, 43, 43,0.05) 100%),radial-gradient(circle at center center, hsl(290,5%,8%),hsl(290,5%,8%));
+}
+
+#work{
+  background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
 }
