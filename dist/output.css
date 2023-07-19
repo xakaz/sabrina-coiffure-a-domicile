@@ -1107,10 +1107,6 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:tracking-widest:hover {
-  letter-spacing: 0.1em;
-}
-
 .hover\:tracking-wide:hover {
   letter-spacing: 0.025em;
 }
